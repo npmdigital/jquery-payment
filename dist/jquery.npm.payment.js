@@ -564,11 +564,12 @@
   var $ = jQuery;
   $.npm = $.npm || {};
   $.npm.payment = $.extend($.payment,{
+    _DEBUG_: false,
     debug: function(s) {
       if (typeof console == "undefined") {
         this.console = {log: function() {}};
       }
-      console.log(s);
+      if (this._DEBUG_ === true) console.log(s);
     },
     formatAmount: function(value) {
       this.debug('-- npm.payment.formatAmount('+value+')');

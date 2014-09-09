@@ -32,6 +32,9 @@
       $('.pmt-amount').payment('amount');
 
       $.npm.payment.debug('Hiya');
+      $.npm.payment._DEBUG_ = true;
+      $.npm.payment.debug('Hiya now that debug is true');
+
 
       $.fn.toggleInputError = function(erred) {
         this.parent('.form-group').toggleClass('has-error', erred);
