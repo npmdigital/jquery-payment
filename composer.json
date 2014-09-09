@@ -1,0 +1,17 @@
+{
+    "name": "npmweb/jquery.payment",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*",
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "dist/jquery.npm.payment.js"
+            ],
+            "shim": {
+                "deps": ["jquery"],
+            }
+        }
+    }
+}
