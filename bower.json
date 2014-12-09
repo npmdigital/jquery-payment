@@ -2,6 +2,13 @@
   "name": "jquery.payment",
   "version": "1.1.4",
   "main": "lib/jquery.payment.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "jquery": ">=1.5"
   }
