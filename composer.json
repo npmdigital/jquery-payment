@@ -1,5 +1,5 @@
 {
-    "name": "npmweb/jquery-payment",
+    "name": "npmdigital/jquery-payment",
     "type": "component",
     "require": {
         "robloach/component-installer": "*"
